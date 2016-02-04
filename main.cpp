@@ -8,7 +8,7 @@ int main(){
     std::cout << str << std::endl;
     std::vector<std::string> tokens=split(str, ';'); //';' is the separator here, change however you want
         //WHATEVER CODE
-    for(int i=0;i<tokens.size();i++)
+    for(size_t i=0;i<tokens.size();i++)
         std::cout << tokens[i] << std::endl;
 
 
