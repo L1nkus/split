@@ -7,7 +7,7 @@ int main(){
     std::string str = "Input String"; //String to be split
     //std::cout << str << std::endl;
     //std::cin >> str;
-    std::vector<std::string> tokens=split(str, ' '); //Space is a separator here, change however you want
+    std::vector<std::string> tokens=split(str, ' '); //Space is the separator here, change however you want
         //WHATEVER CODE
     if (tokens.size()!=0)
         for(auto& i: tokens)
