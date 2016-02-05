@@ -1,4 +1,4 @@
 CC=g++
 DEPENDS=main.h split.cpp
 main:
-	$(CC) -o main main.cpp -Wall $(DEPENDS)
+	$(CC) -o main main.cpp -Wall $(DEPENDS) -std=c++11

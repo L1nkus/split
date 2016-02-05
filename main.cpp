@@ -4,12 +4,13 @@
 #include "main.h"
 
 int main(){
-    std::string str = ""; //String to be split
-    std::cout << str << std::endl;
-    std::vector<std::string> tokens=split(str, ';'); //';' is the separator here, change however you want
+    std::string str = "Input String"; //String to be split
+    //std::cout << str << std::endl;
+    //std::cin >> str;
+    std::vector<std::string> tokens=split(str, ' '); //Space is a separator here, change however you want
         //WHATEVER CODE
-    for(size_t i=0;i<tokens.size();i++)
-        std::cout << tokens[i] << std::endl;
-
+    if (tokens.size()!=0)
+        for(auto& i: tokens)
+            std::cout << i << std::endl;
 
 }
