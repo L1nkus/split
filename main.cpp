@@ -10,7 +10,7 @@ int main(){
     std::vector<std::string> tokens=split(str, ' '); //Space is the separator here, change however you want
         //WHATEVER CODE
     if (tokens.size()!=0)
-        for(auto& i: tokens)
+        for(auto &i: tokens)
             std::cout << i << std::endl;
 
 }
